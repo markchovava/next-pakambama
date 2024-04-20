@@ -11,8 +11,8 @@ export default function Header() {
   return (
     <div>
     <section className="w-[100%] bg-blue-500 text-white ">
-      <div className="mx-auto w-[90%] flex items-center justify-between border-b border-slate-200">
-        <div className="px-3 py-2 flex items-center justify-start gap-8">
+      <div className="mx-auto w-[90%] lg:flex-row flex-col items-center justify-between border-b border-slate-200">
+        <div className="px-3 py-2 flex lg:flex-row flex-col items-center justify-start gap-8">
           {/*  */}
           <div className="flex items-center justify-start gap-2">
             <FaPhoneAlt />
@@ -33,7 +33,7 @@ export default function Header() {
     
     </section>
     <section className="w-[100%] bg-blue-500 text-white ">
-      <div className="mx-auto w-[90%] py-8 flex items-center justify-between">
+      <div className="mx-auto w-[90%] py-8 lg:flex-row flex-col items-center justify-between">
           <div className="text-[2rem] font-extrabold">Pakambama Business Consultancy</div>
           <div className="w-[50%] flex items-center justify-end">
             <ul className="w-[100%] flex items-center justify-end gap-4">

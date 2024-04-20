@@ -14,14 +14,14 @@ export default function Home() {
     <main>
       <Header />
 
-    <section className="bg-gradient-to-br from-blue-400 to-cyan-300 w-[100%] h-[36rem]">
-      <div className="mx-auto h-[100%] w-[90%] flex justify-start items-center">
-          <div className="w-[50%] flex flex-col justify-center items-start text-white">
+    <section className="bg-gradient-to-br from-blue-400 to-cyan-300 w-[100%] lg:h-[36rem] h-auto">
+      <div className="mx-auto h-[100%] w-[90%] lg:flex-row flex-col justify-start items-center">
+          <div className="lg:w-[50%] w-[100%] lg:py-0 py-8 flex flex-col justify-center items-start text-white">
             <p className="tracking-[.8rem] mb-4">Welcome to </p>
             <h6 className="text-[3rem] font-bold leading-none text-white drop-shadow-md mb-4">Pakambama Business Consultancy</h6>
             <button className="bg-white hover:bg-blue-800 hover:text-white text-blue-500 px-6 py-4">Learn More</button>
           </div>
-          <div className="w-[50%] flex items-center justify-center">
+          <div className="lg:w-[50%] w-[100%]  flex items-center justify-center lg:py-0 py-8 ">
             <div className="w-[80%] aspect-[5/4] rounded-xl overflow-hidden bg-white border-5 border-white drop-shadow-lg">
               <img src="./img/01.jpg" className="w-[100%] h-[100%] object-cover" />
             </div>
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
     </section>
     <section className="w-[100%] bg-slate-50">
-      <div className="mx-auto w-[90%] grid grid-cols-4 gap-8 py-[4rem]">     
+      <div className="mx-auto w-[90%] grid lg:grid-cols-4 grid-cols-2 gap-8 py-[4rem]">     
           <div className="bg-white drop-shadow-lg px-4 py-6">
               <h5 className="text-lg font-semibold">Company Registration</h5>
           </div>

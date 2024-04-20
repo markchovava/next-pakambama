@@ -15,8 +15,8 @@ export default function page() {
 
 
         <section className='w-[100%]'>
-            <div className='mx-auto w-[90%] flex items-center justify-start pt-[3rem] pb-[4rem]'>
-                <div className='w-[50%]'>
+            <div className='mx-auto w-[90%] flex lg:flex-row flex-col items-center justify-start pt-[3rem] pb-[4rem]'>
+                <div className='lg:w-[50%] w-[100%] lg:py-0 py-8'>
                     <h6 className='font-extrabold text-[2rem]'>About Our Company</h6>
                     <p className='text-lg'>
                         Pakambama Business Consultancy is a full-service firm dedicated to helping businesses 
@@ -25,7 +25,7 @@ export default function page() {
                         decisions.
                     </p>
                 </div>
-                <div className='w-[50%] flex items-center justify-center'>
+                <div className='lg:w-[50%] w-[100%] lg:py-0 py-8 flex items-center justify-center'>
                     <div className="w-[80%] aspect-[5/4] rounded-xl overflow-hidden bg-white border-5 border-white drop-shadow-lg">
                         <img src="./img/01.jpg" className="w-[100%] h-[100%] object-cover" />
                     </div>
